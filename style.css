@@ -183,6 +183,11 @@ nav {
     align-items: center;
     margin: auto;
     margin-top: 5%;
+    transition: 0.8s;
+}
+
+.workout-container:hover {
+    box-shadow: 8px 12px 30px olivedrab;
 }
 
 .workout-title {
@@ -199,4 +204,45 @@ nav {
 .workour-button:hover {
     box-shadow: 5px 10px 20px red;
     border: 1px solid red;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+
+}
+
+.service1 {
+    box-shadow: 5px 10px 20px gray;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    transition: 1s;
+}
+
+.service1:hover {
+    box-shadow: 5px 10px 20px rgba(230, 9, 9, 0.938);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: -20px;
+}
+
+.service1 img {
+
+    border-radius: 20px;
+}
+
+.red-color {
+    color: red;
+    font-size: 18px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 20%;
+
 }
