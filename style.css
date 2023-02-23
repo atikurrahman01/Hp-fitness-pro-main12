@@ -126,7 +126,7 @@ nav {
 
 .about-container {
     display: flex;
-
+    padding: 10% 0 10% 0;
     justify-content: space-evenly;
     margin-left: 5%;
     margin-right: 5%;
@@ -170,4 +170,33 @@ nav {
 
 .about-right:hover {
     box-shadow: 5px 10px 20px red;
+}
+
+
+.workout-container {
+    width: 700px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.workout-title {
+    font-size: 30px;
+}
+
+.workour-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: orange;
+}
+
+.workour-button:hover {
+    box-shadow: 5px 10px 20px red;
+    border: 1px solid red;
 }
