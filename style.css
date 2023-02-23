@@ -119,3 +119,55 @@ nav {
     color: rgb(17, 233, 222);
     font-size: 18px;
 }
+
+.special-section {
+    background-color: black;
+}
+
+.about-container {
+    display: flex;
+
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.about-left {
+    width: 100%;
+
+}
+
+.about-left:hover {
+
+    box-shadow: 5px 10px 20px red;
+
+
+}
+
+.workout-images {
+    display: flex;
+    width: 100%;
+}
+
+.workout-images img {
+    width: 50%;
+    transform: skewY(-15deg);
+}
+
+.about-right {
+    width: 50%;
+    padding-top: 10%;
+
+    padding-left: 4%;
+    font-weight: 900;
+    color: white;
+
+
+
+}
+
+.about-right:hover {
+    box-shadow: 5px 10px 20px red;
+}
