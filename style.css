@@ -1,0 +1,121 @@
+nav {
+    background-color: black;
+    color: white;
+
+    padding: 20px;
+}
+
+.company-logo {
+    display: flex;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.menu-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-item li {
+    list-style: none;
+    margin-left: 10px;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.menu-item li:hover {
+    color: rgba(184, 16, 16, 0.76);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.banner-container {
+    display: flex;
+    width: 100%;
+
+    background-color: black;
+    color: aliceblue;
+}
+
+.banner-right img {
+    width: 100%;
+
+}
+
+.banner-left {
+
+    padding-top: 20%;
+    margin-left: 20%;
+}
+
+.header-text {
+    font-size: 20px;
+    color: aqua;
+}
+
+.header-text1 {
+
+    color: aqua;
+}
+
+.banner-header {
+    font-size: 70px;
+}
+
+.banner-text {
+    font-size: 18px;
+}
+
+.banner-btn {
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-image: linear-gradient(aqua, rgba(243, 99, 99, 0.623));
+    color: rgba(233, 40, 14, 0.973);
+}
+
+.card-header {
+    font-size: 50px;
+    text-align: center;
+    margin: 5%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    transition: .50s;
+
+
+
+}
+
+.card-body {
+    width: 20%;
+    box-shadow: 5px 8px 20px gray;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.card-body:hover {
+    width: 20%;
+    box-shadow: 5px 8px 20px rgb(228, 5, 5);
+    padding: 4%;
+    margin-top: -50px;
+    transition: .50s;
+    border-radius: 5%;
+}
+
+.text-d {
+    text-decoration: none;
+    color: rgb(17, 233, 222);
+    font-size: 18px;
+}
