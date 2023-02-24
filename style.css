@@ -243,6 +243,28 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-left: 2%;
-    margin-right: 20%;
+    margin-right: 2%;
 
+}
+
+.footer-section {
+    margin-top: 20%;
+    border-top: 2px solid rgba(128, 128, 128, 0.74);
+    text-align: center;
+}
+
+.footer-contener {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-contener h1 {
+    padding: 2%;
+    font-size: 18px;
+}
+
+.footer-contener-p {
+
+    font-size: 18px;
 }
