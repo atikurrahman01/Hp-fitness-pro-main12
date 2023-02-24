@@ -256,12 +256,18 @@ nav {
 .footer-contener {
     display: flex;
     justify-content: center;
-
+    transition: 1s;
 }
 
 .footer-contener h1 {
     padding: 2%;
-    font-size: 18px;
+
+}
+
+.footer-contener h1:hover {
+    font-size: 40px;
+
+
 }
 
 .footer-contener-p {
